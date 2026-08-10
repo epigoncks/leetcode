@@ -24,9 +24,8 @@ public:
         if(t[n][m] == n){
             return true;
         }
-        else{
             return false;
-        }
+        
     }
     bool isSubsequence(string s, string t) {
         int n = s.length();
